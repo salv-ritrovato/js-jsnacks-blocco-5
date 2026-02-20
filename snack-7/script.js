@@ -21,3 +21,10 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+
+// Utilizzo il metodo find per CERCARE nell'array lo studente con l'id 2
+const studentTwo = students.find((student) => {
+  return student.id === 2
+});
+
+console.log(studentTwo);
