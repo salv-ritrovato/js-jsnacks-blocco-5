@@ -21,3 +21,9 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// Cerco nell'array 'students' il primo elemento che soddisfa la mia condizione con il metodo find
+const studentObj = students.find(student => {
+  return student.name === 'Marco Lanci'
+});
+console.log(studentObj.class);

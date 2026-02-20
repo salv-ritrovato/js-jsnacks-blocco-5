@@ -24,7 +24,7 @@ const students = [
 
 // Utilizzo il metodo find per CERCARE nell'array lo studente con l'id 2
 const studentTwo = students.find((student) => {
-  return student.id === 2
+  return student.id === 2;
 });
 
 console.log(studentTwo);
