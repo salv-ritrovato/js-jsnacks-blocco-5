@@ -7,3 +7,10 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+// Utilizzo il metodo map per farmi restituire un array che conitenga solo la chiave "author"
+const authors = posts.map((journalists) => {
+  return journalists.author
+});
+
+console.log(authors);

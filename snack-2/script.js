@@ -7,6 +7,8 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+// Ciclo for each per ciclare fra gli elementi dell'array
 people.forEach((persona) => {
+  // Stampo in console persona.name -- dot notation per identificare solo il nome delle persone ed ottengo il risultato
   console.log(persona.name);
 });
