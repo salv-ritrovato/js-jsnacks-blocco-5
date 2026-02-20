@@ -3,11 +3,10 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Stampa in console tutti i nomi
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
+// Utilizzo il metodo map per creare un nuovo array partendo da quello della consegna
+const namesPrinted = names.map(name =>{
+    // Ritorno solo una stringa con "name" fra virgolette
+    return `"${name}"`
+})
+console.log(namesPrinted.join(', '));
 
-// Ciclo for per ciclare fra i nomi
-for (let i = 0; i < names.length; i++) {
-    // Inizializzo una variabile ed assegno il suo valore come names[i]
-    const nomi = names[i];
-    // Stampo in console il risultato
-    console.log(nomi);
-}
